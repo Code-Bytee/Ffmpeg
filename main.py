@@ -1,8 +1,8 @@
 import os
 import requests
 
+url = 'https://pt00202.cdntrex.com/remote_control.php?time=1685972610&cv=157fbef506bbd5de6e6fa5f407421296&lr=0&cv2=bf0a0c01e19d6273f6ec924b198ea012&file=%2F1171000%2F1171751%2F1171751_1080p.mp4&cv3=693e15b43e131045e0ebfb940709ed60&cv4=359be8ad4abbe03e1019712efcfa0449'
 
-url = 'https://vdownload-42.sb-cd.com/1/3/13187491-1080p.mp4?secure=CY3p74WfKFBZFDBjepQsCQ,1685996303&m=42&d=1&_tid=13187491&name=She_reminds_me_of_Dani_Daniels-pussyspace.com.mp4'
 with open('tmp.mp4','wb') as f:
   f.write(requests.get(url).content)
 #os.system("curl --output tmp.mp4 "+url)
