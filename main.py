@@ -8,4 +8,4 @@ os.system("curl --output tmp.mp4 "+url)
 
 os.system("ffmpeg -y -i 'tmp.mp4' -c:v libx265 -q:v 5 -c:a aac -ab 128k -ar 44100 'final.mp4'")
 
-os.system("ffmpeg -i final.mp4 -ss 1:30 -t 30 ./vid/clip.mp4
+os.system("ffmpeg -i final.mp4 -ss 1:30 -t 30 ./vid/clip.mp4")
