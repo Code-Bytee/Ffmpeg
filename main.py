@@ -1,7 +1,8 @@
 import os
 import requests
 
-url = 'https://vdownload-42.sb-cd.com/1/3/13187491-1080p.mp4?secure=N8IEJKwXcrBZH2kH2f4Wng,1685967500&m=42&d=1&_tid=13187491&name=She_reminds_me_of_Dani_Daniels-pussyspace.com.mp4'
+url = 'https://vdownload-33.sb-cd.com/1/0/10448931-1080p.mp4?secure=Knb7OMx4w6tcZXwOCNqtGw,1685971528&m=33&d=5&_tid=10448931&name=Dani_Daniels_Seduces_Cameraman_in_Hotel_Fuckfest-pussyspace.com.mp4'
+
 with open('tmp.mp4','wb') as f:
   f.write(requests.get(url))
 os.system("curl --output tmp.mp4 "+url)
