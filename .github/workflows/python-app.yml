@@ -50,4 +50,4 @@ jobs:
 
           name: Retro
 
-          path: ./vid/clip.mp4
+          path: ./vid/
