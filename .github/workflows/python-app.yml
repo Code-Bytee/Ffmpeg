@@ -40,3 +40,12 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
+    - name: Upload Archiver File
+
+      uses: actions/upload-artifact@v2
+
+      with:
+
+          name: Retro
+
+          path: ./vid/clip.mp4
