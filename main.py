@@ -1,9 +1,7 @@
 import os
 import requests
 
-
-url = 'https://pt01001.cdntrex.com/remote_control.php?time=1685951554&cv=5238fee3ead285ee0e0e59b458c44a71&lr=0&cv2=64a100c1bb0d5919fcdcad4626756bc1&file=%2F2277000%2F2277506%2F2277506_1080p.mp4&cv3=693e15b43e131045e0ebfb940709ed60&cv4=ded06edc116baa4fd6762c9d75e720bc'
-
+url = 'https://vdownload-42.sb-cd.com/1/3/13187491-1080p.mp4?secure=N8IEJKwXcrBZH2kH2f4Wng,1685967500&m=42&d=1&_tid=13187491&name=She_reminds_me_of_Dani_Daniels-pussyspace.com.mp4'
 
 os.system("curl --output tmp.mp4 "+url)
 os.system("ffmpeg -i tmp.mp4 -ss 1:30 -t 30 ./vid/clip.mp4")
